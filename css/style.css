@@ -1,0 +1,10 @@
+body{
+    background-color: #f4f4f4;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+}
