@@ -5,15 +5,15 @@ body{
     margin: 0;
 }
 
-.header-container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
 #main-header{
     background-color: coral;
     color: #fff;
+    
+    .header-container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    }
 }
 
 #main{
