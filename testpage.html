@@ -25,7 +25,12 @@
     </section>
 
     <footer id="main-footer">
-        <p>Send help ong. pls.</p>
+        <p id="last-modified"></p>
+
+        <script>
+            let text = document.lastModified;
+            document.getElementById("last-modified").innerHTML = "Last Updated: " + text;
+        </script>
     </footer>
 </body>
 </html>
