@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>itschesterlk</title>
+    <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+    <header id="main-header">
+        <div class="header-container">
+            <h1>Home Page!</h1>
+        </div>
+    </header>
 
-    <h1>Woa... A heading?</h1>
-    <p>AND A PARAGRAPH?</p>
-    <p>I really don't know html, help.</p>
+    <section id="message">
+        <h2>Still a WIP</h2>
+        <p>I'm not quite sure about the layout or what this page will contian, we will let time see.</p>
+    </section>
 
-    <h2>Want to see me learn and fail html?</h2>
-    <p>See my test site <a href="testpage.html">here!</a></p>
+    <section id="main">
+        <h2>This is where the other things go.</h2>
+        <p>YAy?</p>
+        <p>Visit the test page <a href="www.chesterlk.com/testpage.html">here!</a></p>
+    </section>
 
+    <footer id="main-footer">
+        <p id="last-modified"></p>
+
+        <script>
+            let text = document.lastModified;
+            document.getElementById("last-modified").innerHTML = "Last Updated: " + text;
+        </script>
+    </footer>
 </body>
 </html>

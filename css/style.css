@@ -16,6 +16,18 @@ body{
     overflow: hidden;
 }
 
+#message{
+    width: 70%;
+    margin: auto;
+    padding:0 30px;
+    background-color: azure;
+}
+
+#message h2{
+    color: red;
+    text-align: center;
+}
+
 #main{
     width: 70%;
     margin: auto;
